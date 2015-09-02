@@ -9,6 +9,10 @@ form, #videoResults,
 	text-align: center;
 }
 
+#results {
+	margin: 0em 1em; 
+}
+
 #videoResults, 
 #channelResults{
 	width: 50%;
@@ -22,7 +26,7 @@ form, #videoResults,
 	float: right; 
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
 	#channelResults, 
 	#videoResults {
 		float: none; 

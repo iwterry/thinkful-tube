@@ -96,7 +96,7 @@ $(document).ready(function() {
 		- For a valid query, display the results and then remove remove the query from the textbox
 	*/
 	
-	$('#querySubmit').click(function(event) {
+	$('form').submit(function(event) {
 		event.preventDefault();
 		var searchTerm = $('#query').val(); 
 		$('a, h3, p').remove(); 

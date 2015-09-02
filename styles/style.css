@@ -1,0 +1,34 @@
+body {
+	padding: 0em; 
+	margin: 0em; 
+}
+
+h1, h2, h4,
+form, #videoResults, 
+#channelResults { 
+	text-align: center;
+}
+
+#videoResults, 
+#channelResults{
+	width: 50%;
+}
+
+#channelResults {
+	float: left;
+}
+
+#videoResults {
+	float: right; 
+}
+
+@media only screen and (max-width: 550px) {
+	#channelResults, 
+	#videoResults {
+		float: none; 
+		width: 16em;
+		margin: 0em auto; 
+		
+		
+	}
+}
